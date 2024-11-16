@@ -13,3 +13,6 @@ for (var i = 1; i < arr.length; i++) {
 
 console.log("Minimum: " + min); 
 console.log("Maximum: " + max);
+
+console.log(Math.max(...newArr))
+console.log(Math.min(...newArr))
